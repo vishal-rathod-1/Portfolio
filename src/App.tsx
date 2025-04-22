@@ -25,7 +25,7 @@ function App() {
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = 'janikaa_resume.pdf';
+      link.download = 'vishal_resume.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -38,10 +38,13 @@ function App() {
     }
   }, []);
 
-  const skills = [
-    'Python', 'C', 'Java', 'HTML', 'CSS', 'Javascript',
-    'Wireshark', 'BurpSuite', 'React', 'nmap', 'Metasploit', 'Figma'
-  ];
+const skills = [
+  'Python', 'HTML', 'CSS', 'JavaScript', 
+  'Wireshark', 'BurpSuite', 'nmap', 'Metasploit',
+  'Suricata', 'Zeek', 'Elasticsearch', 'Kibana', 'Filebeat',
+  'Paramiko', 'Zsh', 'Cybersecurity'
+];
+
 
   return (
     <div className="bg-[#0D0D0D] text-[#F1EBD4] min-h-screen">
@@ -77,7 +80,7 @@ function App() {
                 Hi, I'm Janikaa.
               </h2>
               <p className="text-xl font-medium mb-4 text-[#CB7CC7]">
-                Exploring web development and cybersecurity
+                Exploring cybersecurity and DevOps
               </p>
               <p className="mb-8 text-lg">
                 B.E. in CS (Cybersecurity), DSCE (2026)
@@ -121,31 +124,68 @@ function App() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-display font-bold mb-12 text-[#E576CD]">Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-[#F1EBD4]/10 rounded-2xl p-6 hover:transform hover:scale-105 transition-transform">
-              <h3 className="text-xl font-display font-bold mb-4">Furhaven</h3>
-              <p className="mb-4">
-                Furhaven is a platform that helps users locate nearby animal shelters,
-                donate, volunteer, and support pet welfare.
-              </p>
-              <a
-                href="https://github.com/Janikaa17/FurHaven"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center text-[#E576CD] hover:text-[#CB7CC7] font-medium"
-                aria-label="View Furhaven project on GitHub"
-              >
-                <Github className="w-5 h-5 mr-2" />
-                View on GitHub
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+     {/* Projects Section */}
+<section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl font-display font-bold mb-12 text-[#4A90E2]">Projects</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      {/* Intrusion Detection System (IDS) */}
+      <div className="bg-[#F1EBD4]/10 rounded-2xl p-6 hover:transform hover:scale-105 transition-transform">
+        <h3 className="text-xl font-display font-bold mb-4">Intrusion Detection System (IDS)</h3>
+        <p className="mb-4">
+          Designed and deployed an IDS using Suricata, Zeek, Filebeat, Elasticsearch, and Kibana.
+          Built for real-time traffic inspection, threat detection, and security event correlation in a simulated network.
+        </p>
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center text-[#4A90E2] hover:text-[#357ABD] font-medium"
+        >
+          <Github className="w-5 h-5 mr-2" />
+          Source Code (private or offline)
+        </a>
+      </div>
+
+      {/* SSH Honeypot with Python */}
+      <div className="bg-[#F1EBD4]/10 rounded-2xl p-6 hover:transform hover:scale-105 transition-transform">
+        <h3 className="text-xl font-display font-bold mb-4">Python SSH Honeypot</h3>
+        <p className="mb-4">
+          Created a Python-based honeypot using Paramiko that mimics a vulnerable Ubuntu jumpbox.
+          Captures malicious login attempts and logs intruder interactions for analysis.
+        </p>
+        <a
+          href="https://github.com/vishal-rathod-1/honeypot-trap"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center text-[#4A90E2] hover:text-[#357ABD] font-medium"
+        >
+          <Github className="w-5 h-5 mr-2" />
+          View on GitHub
+        </a>
+      </div>
+
+      {/* Terraform Automation */}
+      <div className="bg-[#F1EBD4]/10 rounded-2xl p-6 hover:transform hover:scale-105 transition-transform">
+        <h3 className="text-xl font-display font-bold mb-4">Terraform Infrastructure Automation</h3>
+        <p className="mb-4">
+          Used Terraform to automate infrastructure provisioning. Focused on reproducible, secure deployment of test environments for cybersecurity experimentation.
+        </p>
+        <a
+          href="https://github.com/vishal-rathod-1/Terraform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center text-[#4A90E2] hover:text-[#357ABD] font-medium"
+        >
+          <Github className="w-5 h-5 mr-2" />
+          View on GitHub
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* Skills Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
