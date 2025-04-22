@@ -219,7 +219,7 @@ const skills = [
                 aria-label="Send email"
               >
                 <Mail className="w-6 h-6 mr-4" />
-                janikaa.sureshkumar@gmail.com
+                vishalrathod2036@gmail.com
               </a>
               <a
                 href="https://www.linkedin.com/in/janikaa-sureshkumar/"
@@ -232,7 +232,7 @@ const skills = [
                 LinkedIn
               </a>
               <a
-                href="https://github.com/Janikaa17"
+                href="https://github.com/vishal-rathod-1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-lg hover:text-[#E576CD] transition-colors font-medium"
