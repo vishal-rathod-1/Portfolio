@@ -53,7 +53,7 @@ const skills = [
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-display font-bold text-[#E576CD]">janikaa</h1>
+              <h1 className="text-2xl font-display font-bold text-[#E576CD]">vishal rathod</h1>
             </div>
             <div className="hidden md:flex space-x-8">
               {['About', 'Projects', 'Contact'].map((item) => (
@@ -77,7 +77,7 @@ const skills = [
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="lg:pl-[15%]">
               <h2 className="text-4xl sm:text-5xl font-display font-bold mb-4">
-                Hi, I'm Janikaa.
+                Hi, I'm vishal rathod
               </h2>
               <p className="text-xl font-medium mb-4 text-[#CB7CC7]">
                 Exploring cybersecurity and DevOps
@@ -214,7 +214,7 @@ const skills = [
             <h2 className="text-3xl font-display font-bold mb-8 text-[#E576CD]">Get in Touch</h2>
             <div className="space-y-6">
               <a
-                href="mailto:janikaa.sureshkumar@gmail.com"
+                href="mailto:vishalrathod2036@gmail.com"
                 className="flex items-center text-lg hover:text-[#E576CD] transition-colors font-medium"
                 aria-label="Send email"
               >
@@ -222,7 +222,7 @@ const skills = [
                 vishalrathod2036@gmail.com
               </a>
               <a
-                href="https://www.linkedin.com/in/janikaa-sureshkumar/"
+                href="https://www.linkedin.com/in/vishal-rathod-943ba5259/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-lg hover:text-[#E576CD] transition-colors font-medium"
