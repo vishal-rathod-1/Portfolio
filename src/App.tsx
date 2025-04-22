@@ -137,14 +137,14 @@ const skills = [
           Designed and deployed an IDS using Suricata, Zeek, Filebeat, Elasticsearch, and Kibana.
           Built for real-time traffic inspection, threat detection, and security event correlation in a simulated network.
         </p>
-        <a
-          href="#"
+         <a
+          href="https://github.com/vishal-rathod-1/IDS"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center text-[#4A90E2] hover:text-[#357ABD] font-medium"
         >
           <Github className="w-5 h-5 mr-2" />
-          Source Code (private or offline)
+          View on GitHub
         </a>
       </div>
 
