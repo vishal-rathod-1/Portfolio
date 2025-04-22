@@ -8,6 +8,7 @@
 body {
   font-family: 'DM Sans', sans-serif;
   scroll-behavior: smooth;
+  background-color: #0D1117; /* Dark background */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,8 +20,8 @@ h1, h2, h3, .font-display {
 
 /* Selection styling */
 ::selection {
-  background-color: #E576CD;
-  color: #0D0D0D;
+  background-color: #14F195; /* Neon Green */
+  color: #0D1117;
 }
 
 /* Smooth scrolling for the whole page */
@@ -30,7 +31,7 @@ html {
 
 /* Focus styles for accessibility */
 :focus-visible {
-  outline: 2px solid #E576CD;
+  outline: 2px solid #14F195; /* Neon Green */
   outline-offset: 2px;
 }
 
@@ -40,16 +41,16 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0D0D0D;
+  background: #0D1117; /* Dark background */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #E576CD;
+  background: #14F195; /* Neon Green */
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #CB7CC7;
+  background: #0F766E; /* Teal */
 }
 
 /* Loading spinner animation */
