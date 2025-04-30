@@ -80,7 +80,7 @@ const skills = [
                 Hi, I'm vishal rathod
               </h2>
               <p className="text-xl font-medium mb-4 text-[#CB7CC7]">
-                Exploring cybersecurity and DevOps
+                Exploring cybersecurity
               </p>
               <p className="mb-8 text-lg">
                 B.E. in CS (Cybersecurity), DSCE (2026)
