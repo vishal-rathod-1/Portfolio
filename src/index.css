@@ -20,7 +20,7 @@ h1, h2, h3, .font-display {
 
 /* Selection styling */
 ::selection {
-  background-color: #14F195; /* Neon Green */
+  background-color: #0FF1CE; /* Cyan green highlight */
   color: #0D1117;
 }
 
@@ -31,7 +31,7 @@ html {
 
 /* Focus styles for accessibility */
 :focus-visible {
-  outline: 2px solid #14F195; /* Neon Green */
+  outline: 2px solid #0FF1CE; /* Cyan-green */
   outline-offset: 2px;
 }
 
@@ -45,12 +45,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #14F195; /* Neon Green */
+  background: #3ABFF8; /* Blue shade */
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0F766E; /* Teal */
+  background: #0EA5E9; /* Lighter blue */
 }
 
 /* Loading spinner animation */
